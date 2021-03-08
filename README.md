@@ -7,7 +7,7 @@ A custom *Babel* preset for vanilla JS development
 ## Installation
 
 ```
-npm i @fiad/babel-preset-vanilla
+npm i -D @fiad/babel-preset-vanilla
 ```
 
 ## Usage

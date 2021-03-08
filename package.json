@@ -3,12 +3,19 @@
   "version": "1.0.0",
   "description": "A custom Babel preset for vanilla JS development",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fiadone/babel-preset-vanilla.git"
+  },
   "keywords": [
     "babel",
     "preset"
   ],
   "author": "Andrea 'Fiad' Fiadone",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fiadone/babel-preset-vanilla/issues"
+  },
   "homepage": "https://github.com/fiadone/babel-preset-vanilla",
   "peerDependencies": {
     "@babel/cli": ">= 7",
