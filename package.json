@@ -1,6 +1,6 @@
 {
   "name": "@fiad/babel-preset-vanilla",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A custom Babel preset for vanilla JS development",
   "main": "index.js",
   "repository": {
@@ -17,9 +17,11 @@
     "url": "https://github.com/fiadone/babel-preset-vanilla/issues"
   },
   "homepage": "https://github.com/fiadone/babel-preset-vanilla",
+  "peerDependencies": {
+    "@babel/cli": "7.x",
+    "@babel/core": "7.x"
+  },
   "dependencies": {
-    "@babel/cli": "^7.13.10",
-    "@babel/core": "^7.13.10",
     "@babel/plugin-proposal-class-properties": "^7.12.1",
     "@babel/plugin-proposal-decorators": "^7.12.12",
     "@babel/plugin-proposal-nullish-coalescing-operator": "^7.12.1",
